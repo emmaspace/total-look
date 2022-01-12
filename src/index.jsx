@@ -1,13 +1,15 @@
+import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-//import App from './App';
 import reportWebVitals from './reportWebVitals';
+<<<<<<< HEAD:src/index.js
 import { ListCategories } from '../src/Components/Categories/ListCategories';
+=======
+>>>>>>> b47fb0164e0895e031501fd535f6affeacf9fce8:src/index.jsx
 
 ReactDOM.render(
   <React.StrictMode>
-    < ListCategories />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
