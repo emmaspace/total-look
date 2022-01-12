@@ -29,24 +29,24 @@ export const AddCategory = () => {
                 showModal={showModal}
                 setShowModal={setShowModal}
             >
-                <form className='addCatg' onSubmit={handleSubmit}>
-                    <p>Category</p>
-                    <input                     
+                <form className='addCateg' onSubmit={handleSubmit}>
+                    <p className='lab-Categ'>Category:</p>
+                    <input className='inp-Categ'                     
                     type="text"                                         
                     name="category"
                     value={category}
                     onChange={(e) => setCategory(e.target.value)}
-                    />
-                    <p>Image</p>
-                    <input 
-                    type="image"
+                    />                    
+                    <p className='lab-Categ'>Image:</p>
+                    <input className='inp-Categ' 
+                    type="text"
                     name='image'
                     alt='an image represents a category'
                     value={image}                    
                     onChange={(e) => setImage(e.target.value)}
-                    />
-                    <p>Description</p>
-                    <input                     
+                    />                    
+                    <p className='lab-Categ'>Description:</p>
+                    <textarea className='inp-Categ' id='descrip-categ'                    
                     type="text"
                     name='description'
                     value={description}
@@ -67,29 +67,3 @@ export const AddCategory = () => {
     )
 }
 
-
-/* import React, { useState } from 'react'
-import './Listcategories.css'
-import { ModalCategories } from './ModalCategories';
-
-
-export const AddCategory = () => {
- const [showModal, setShowModal] = useState(false);
-
- const openModal = ()=>{
-     setShowModal(prev => !prev)
- }
-
- 
-
-    return (
-        <>
-        <button onClick={openModal} className='btn-addcat'>
-            <p> + Add new category</p>
-        </button>
-        <ModalCategories showModal={showModal} setShowModal={setShowModal} />        
-        </>
-        
-    )
-}
- */

@@ -47,7 +47,7 @@ justify-content: center;
 `
 
 const Modal = styled.div`
-width: 60%;
+width: 40%;
 min-height: 50vh;
 background: white;
 position: relative; 

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 .list-categories{    
     width: 80%;
     margin: auto;    
@@ -11,7 +14,7 @@
     justify-content: space-between;
     padding-top: 100px;
 }
-.btn-addcat{
+.btn-addcat{   
     background-color: #C4C4C4;
     width: 45%;
     height: 40px;
@@ -19,6 +22,7 @@
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
     font-size: .8rem;
+
 }
 .bttnSubCancel{
     display: flex;
@@ -32,6 +36,33 @@
     width: 30%;
     background-color: #BF84A0;
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px;    
 }
+.addCateg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.lab-Categ {
+    width: 30%;
+    margin: 10px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.inp-Categ{
+    width: 40%;
+    margin: 10px;   
+    border-radius: 20px;
+    border: 3px solid #BF84A0;
+    padding: 5px;
+}
+#descrip-categ{
+    height: 100px;
+    justify-content: flex-end;   
+    box-sizing: border-box;
+    resize: none; 
+}
+
 
