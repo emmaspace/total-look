@@ -1,4 +1,4 @@
-import "./OrderModal.css";
+import "../../Styles/OrderModal.css";
 
 function OrderModal() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import OrderModal from "./Home/OrderModal";
 import { Route, Routes } from "react-router-dom";
+import OrderModal from "./Components/Home/OrderModal";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
