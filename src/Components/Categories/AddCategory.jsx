@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { EachCategory } from './EachCategory';
-import './Listcategories.css'
+import '../../Styles/Listcategories.css'
 import { ModalCategories } from './ModalCategories';
 
 

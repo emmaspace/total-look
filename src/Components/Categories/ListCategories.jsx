@@ -1,6 +1,6 @@
 import React from 'react'
 import { AddCategory } from './AddCategory'
-import './Listcategories.css'
+import '../../Styles/Listcategories.css'
 
 export const ListCategories = () => {
     return (
@@ -10,7 +10,9 @@ export const ListCategories = () => {
                 
                 <p>Botón buscar</p>
             </div>
-            
+            <section  className='categories'>
+
+            </section>
     </div>
     )
 }

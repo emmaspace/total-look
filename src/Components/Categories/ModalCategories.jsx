@@ -1,14 +1,3 @@
-/* import React from 'react'
-import styled from 'styled-components'
-
-export const ModalCategories = ({showModal, setShowModal}) => {
-    return (
-        <div>
-            {showModal ? <p>Modal</p>: null }
-        </div>
-    )
-}
- */
 import React from 'react'
 import styled from 'styled-components'
 

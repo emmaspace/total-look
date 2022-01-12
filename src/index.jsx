@@ -2,10 +2,6 @@ import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-<<<<<<< HEAD:src/index.js
-import { ListCategories } from '../src/Components/Categories/ListCategories';
-=======
->>>>>>> b47fb0164e0895e031501fd535f6affeacf9fce8:src/index.jsx
 
 ReactDOM.render(
   <React.StrictMode>
