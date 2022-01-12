@@ -1,16 +1,18 @@
-import React from "react";
-import { Route, Routes } from "react-router-dom";
-import OrderModal from "./Components/Home/OrderModal";
-import { BrowserRouter as Router } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+import './App.css';
+import Home from './Components/Home/Home';
+import OrderModal from "./Components/Home/OrderModal";
+
+
+export const App = () => {
   return (
-    <Router>
+    <Router> 
       <Routes>
+        <Route path= '/' element = {<Home/>} />
         <Route exact path="/order-modal" element={<OrderModal />}/>
       </Routes>
     </Router>
-  );
+  )
 }
-
-export default App;
