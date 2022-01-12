@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<OrderModal />}/>
+        <Route exact path="/order-modal" element={<OrderModal />}/>
       </Routes>
     </Router>
   );
