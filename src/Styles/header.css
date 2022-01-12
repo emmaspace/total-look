@@ -1,0 +1,53 @@
+#header {
+    display: flex;
+    background-color: #DEC0CF;
+    height: 100px;
+}
+
+#logo {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 40px;
+    height: 100px;
+}
+
+#header .btn-login {
+    align-self: center;
+    margin-left: 775px;
+    height: 30px;
+    width: 100px;
+    background-color: #A88DA3;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-login:hover {
+    opacity: 50%;
+}
+
+#header .btn-shopping-cart{
+    align-self: center;
+    height: 40px;
+    width: 50px;
+    margin-left: 40px;
+    background-position: 50% 50%;
+    border: none;
+    background-color: #DEC0CF;
+}
+
+.bag-cart {
+    height: 35px;
+}
+
+#header .btn-logout{
+    align-self: center;
+    height: 40px;
+    width: 50px;
+    margin-left: 20px;
+    border: none;
+    background-color: #DEC0CF;
+}
+
+.img-logout{
+    height: 40px;
+}
