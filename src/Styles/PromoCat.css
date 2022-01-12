@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Licorice&family=Montserrat:ital,wght@1,100&display=swap");
+
+.container-procat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-promos {
+  position: absolute;
+  width: 171px;
+  height: 23px;
+  left: 36px;
+  top: 135px;
+  border: 2px solid #9e5b8e;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.promo-uno {
+  position: absolute;
+  width: 944px;
+  height: 150px;
+  left: 36px;
+  top: 175px;
+  border: 2px solid #9e5b8e;
+  background: url(../../public/promo11.jpg);
+}
+
+.promo-dos {
+  position: absolute;
+  width: 944px;
+  height: 120px;
+  left: 36px;
+  top: 353px;
+  background: rgba(217, 108, 108, 0.74);
+}
+
+h1 {
+  margin: auto;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-categorias {
+  position: absolute;
+  width: 171px;
+  height: 23px;
+  left: 809px;
+  top: 494px;
+  border: 2px solid #9e5b8e;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+p {
+  font-family: "Licorice", cursive;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 36px;
+}
+ 
+.cat-uno {
+  position: absolute;
+  width: 277px;
+  height: 185px;
+  left: 34px;
+  top: 547px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: url(../../public/ropa1.jpg);
+  background-size: 111%;
+  text-align: right;
+}
+
+.cat-dos {
+  position: absolute;
+  width: 277px;
+  height: 185px;
+  left: 373px;
+  top: 547px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: url(../../public/zap11.jpg);
+  background-size: 111%;
+  text-align: right;
+}
+
+.cat-tres {
+  position: absolute;
+  width: 277px;
+  height: 185px;
+  left: 706px;
+  top: 547px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: url(../../public/bolsas11.jpg);
+  background-size: 111%;
+  text-align: right;
+}
+   

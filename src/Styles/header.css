@@ -1,69 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
 #header {
-    display: flex;
-    background-color: #DEC0CF;
-    height: 100px;
+  display: flex;
+  background-color: #dec0cf;
+  height: 100px;
+  width: 100%;
 }
 
 #logo {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 130px;
-    height: 100px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 130px;
+  height: 100px;
 }
 
 #header .btn-login {
-    align-self: center;
-    margin-left: 500px;
-    height: 30px;
-    width: 200px;
-    background-color: #A88DA3;
-    border-radius: 10px;
-    border: none;
+  align-self: center;
+  margin-left: 400px;
+  height: 30px;
+  width: 800px;
+  background-color: #a88da3;
+  border-radius: 10px;
+  border: none;
 }
 
 .btn-login:hover {
-    opacity: 50%;
+  opacity: 50%;
 }
 
-#header .btn-shopping-cart{
-    align-self: center;
-    height: 40px;
-    width: 50px;
-    margin-left: 130px;
-    background-position: 50% 50%;
-    border: none;
-    background-color: #DEC0CF;
+#header .btn-shopping-cart {
+  align-self: center;
+  height: 40px;
+  width: 50px;
+  margin-left: 130px;
+  background-position: 50% 50%;
+  border: none;
+  background-color: #dec0cf;
 }
 
 .bag-cart {
-    height: 35px;
+  height: 35px;
 }
 
-#header .btn-logout{
-    align-self: center;
-    height: 40px;
-    width: 50px;
-    margin-left: 30px;
-    border: none;
-    background-color: #DEC0CF;
+#header .btn-logout {
+  align-self: center;
+  height: 40px;
+  width: 50px;
+  margin-left: 30px;
+  border: none;
+  background-color: #dec0cf;
 }
 
-.img-logout{
-    height: 40px;
+.img-logout {
+  height: 40px;
 }
 
-#footer{
-    
-        position: sticky;
-        background-color: #DEC0CF;
-        height: 50px;
-        bottom: 0;
-        text-align: center;
-              
-    
+#search {
+  position: absolute;
+  flex-direction: row;
+  margin-top: 130px;
+  height: 40px;
+  left: 900px;
+}
+input {
+  background-color: #c4c4c4;
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+}
+::placeholder {
+  padding-left: 10px;
+  font-size: 15px;
+}
+.btn-search {
+  height: 30px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: 5px;
+}
+.img-search {
+  height: 20px;
+}
+#footer {
+  position: fixed;
+  background-color: #dec0cf;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  left: 0;
 }
 
-#footer p{
-    align-self: center;
-    padding-top: 10px;
+#footer p {
+  font-family: Montserrat;
+  align-self: center;
+  font-size: small;
+  padding-top: 1;
 }
