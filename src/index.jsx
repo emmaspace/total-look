@@ -1,13 +1,11 @@
+import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-//import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { ListCategories } from './Categories/ListCategories';
 
 ReactDOM.render(
   <React.StrictMode>
-    < ListCategories />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
