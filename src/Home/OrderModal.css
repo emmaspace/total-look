@@ -6,14 +6,8 @@
   box-sizing: border-box;
 }
 
-#fondito {
-  background: rgba(191, 132, 160, 0.51);
-  height: 100vh;
-  padding-top: 5em;
-}
-
 #order-modal {
-  /* margin-top: 5em; */
+  margin-top: 5em;
   min-height: 100%;
   font-family: "Montserrat", sans-serif;
   background: rgba(0, 0, 0, 0.6);

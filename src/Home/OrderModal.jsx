@@ -2,7 +2,6 @@ import "./OrderModal.css";
 
 function OrderModal() {
   return (
-    <div id="fondito">
       <div id="order-modal">
         <section className="order-modal__content">
           <button aria-label="Close">
@@ -82,7 +81,6 @@ function OrderModal() {
           </section>
         </section>
       </div>
-    </div>
   );
 }
 
