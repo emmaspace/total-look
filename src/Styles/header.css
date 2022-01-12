@@ -51,3 +51,19 @@
 .img-logout{
     height: 40px;
 }
+
+#footer{
+    
+        position: sticky;
+        background-color: #DEC0CF;
+        height: 50px;
+        bottom: 0;
+        text-align: center;
+              
+    
+}
+
+#footer p{
+    align-self: center;
+    padding-top: 10px;
+}
